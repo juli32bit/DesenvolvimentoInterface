@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 15 - Formulários</title>
+</head>
+
+<body>
+    <form action="paginaDestino" method="get">
+        <h1>Exemplo 15 Formulários - Componentes</h1>
+        <div>
+            <label for="">Nome</label><br>
+            <input type="text" name="txtNameNome" id="txtNome">
+        </div>
+        <br>
+        <div>
+            <label for="">Data de Nascimento</label><br>
+            <input type="date" name="txtNameDataNascimento" id="txtDataNascimento">
+        </div>
+        <br>
+        <div>
+            <label for="">E-mail</label><br>
+            <input type="e-mail" name="txtNameEmail" id="txtEmail">
+        </div>
+        <br>
+        <div>
+            <label for="">Estado Civil</label><br>
+            <select name="cboEstadoCivil" id="cboEstadoCivil">
+                <option value="1">Casado</option>
+                <option value="2">Solteiro</option>
+                <option value="3">Divorciado</option>
+                <option value="5">Tico-Tico-no-fubá</option>
+                <option value="4">Viúvo</option>
+                <option value="6">Outros</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for=""></label>
+            <input type="radioo" name="rdNameSexo" id="rdSexo" value="1">
+            Masculino
+            <input type="radio" name="rdNameSexo" id="rdSexo" value="2">
+            Feminino
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha uma ou mais áreas de atuação</label>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="1"> Front-End <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="2"> Back-End <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="3"> Analista de processos <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="4"> Analista de Requisitos <br>
+            <input type="checkbox" name="chkAreaAtuacao" id="chkAreaAtuacao" value="5"> Analista de dados <br>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+</body>
+
+
+</html>
